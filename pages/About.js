@@ -17,7 +17,7 @@ const About = () => {
                     <span>
                     The club had its start in Purdue University as early as 2014.
                     One of our most notable alumni is William Lee
-                    <a href="https://liquipedia.net/dota2/Blitz" className={styles.Blitz}> (Blitz) </a>
+                    <a href='https://liquipedia.net/dota2/Blitz' className={styles.Blitz}> (Blitz) </a>
                     who currently coaches the professional Dota 2 team, Team Liquid.
                     </span>
                     <br></br>
