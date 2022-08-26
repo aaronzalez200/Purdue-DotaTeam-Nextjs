@@ -7,7 +7,7 @@ import Achievements from '../components/achievements'
 
 export default function Home() {
   return (
-    <main className={styles.container}>
+    <div className={styles.container}>
       <Head>
         <title>Purdue Dota 2 Club</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -18,6 +18,6 @@ export default function Home() {
       <Navbar />
       <Body />
       <Achievements />
-    </main>
+    </div>
   )
 }
