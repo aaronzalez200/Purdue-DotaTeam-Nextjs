@@ -9,7 +9,7 @@ export default function Achievements() {
         <div className={styles.rankingInfo}>
             <br></br>
             <h4>CSL Spring 2022</h4>
-            <img className={styles.Trophy} src='/Trophy.png' height="417" width="417"/>
+            <img className={styles.Trophy} src='/Trophy.png'/>
             <p>1st Place</p>
             <br></br>
             <h4>Roster</h4>
@@ -22,7 +22,7 @@ export default function Achievements() {
             </div>
             <br></br>
             <h4>KSU Spring Tournament 2020 </h4>
-            <img className={styles.Trophy} src='/Trophy.png' height="417" width="417"/>
+            <img className={styles.Trophy} src='/Trophy.png'/>
             <p>1st Place</p>
             <br></br>
             <h4>Roster</h4>

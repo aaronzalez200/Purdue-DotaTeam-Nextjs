@@ -13,11 +13,17 @@
     font-family: 'BebasNeueRegular';
     font-weight: normal;
     font-style: normal;
-    font-size: 10rem;
+    font-size: clamp(2vw, 5vw + 1rem, 10rem);
 }
 
 .achievements h4 {
-    color: var(--text-main)
+    color: var(--text-main);
+    text-align: center;
+    font-size: clamp(2vw, 5vw + 1rem, 10rem);
+}
+
+.achievements p {
+    font-size: clamp(2vw, 3vw + 1rem, 10rem);
 }
 
 .rankingInfo {
@@ -27,4 +33,14 @@
     font-size: 4rem;
     color: white;
     align-items: center;
+}
+
+.Trophy {
+    width: calc(300px + 15vw);
+}
+
+@media(max-width: 500px) and (min-width: 280px) {
+    .Trophy {
+       width: 250px;
+    }
 }
