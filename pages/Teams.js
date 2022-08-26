@@ -1,5 +1,5 @@
 import styles from '../styles/Teams.module.css'
-import Data from '../data/PlayerData.json'
+import Data from '../public/PlayerData.json'
 import Logo from '../public/PULogo.png'
 import React from 'react'
 
