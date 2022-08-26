@@ -1,0 +1,22 @@
+.Body {
+    color: white;
+    padding-top: 20px;
+}
+
+.Body h1 {
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    font-family: 'BebasNeueRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: clamp(2vw, 5vw + 1rem, 10rem);
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-size: clamp(2vw, 5vw + 1rem, 10rem);
+}

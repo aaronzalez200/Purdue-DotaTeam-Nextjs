@@ -1,0 +1,72 @@
+{
+    "1": {
+        "name": "Jey",
+        "image": "Filler",
+        "heroes": "Clinkz, Slark, Phantom Lancer",
+        "year": "Junior",
+        "major": "---"
+    },
+    "2": {
+        "name": "Carlos",
+        "image": "Filler",
+        "heroes": "OD, Tiny, Necromancer",
+        "year": "Sophomore",
+        "major": "---"
+    },
+    "3": {
+        "name": "TreeHard",
+        "image": "Filler",
+        "heroes": "Mars, Darkseer, Magnus",
+        "year": "Alumni",
+        "major": "Electrical Engineering Technology"
+    },
+    "4": {
+        "name": "Sync",
+        "image": "Filler",
+        "heroes": "Marci, Shadow Shaman, Phoenix",
+        "year": "Junior",
+        "major": "Construction Management"
+    },
+    "5": {
+        "name": "Indigente",
+        "image": "Filler",
+        "heroes": "Dazzle, Lich, Witch Doctor",
+        "year": "Junior",
+        "major": "Electrical Engineering"
+    },
+    "6": {
+        "name": "Laconic",
+        "image": "Filler",
+        "heroes": "---, ---, ---",
+        "year": "---",
+        "major": "---"
+    },
+    "7": {
+        "name": "Vix",
+        "image": "Filler",
+        "heroes": "---, ---, ---",
+        "year": "---",
+        "major": "---"
+    },
+    "8": {
+        "name": "Alcantro",
+        "image": "Filler",
+        "heroes": "---, ---, ---",
+        "year": "---",
+        "major": "---"
+    },
+    "9": {
+        "name": "Charles",
+        "image": "Filler",
+        "heroes": "---, ---, ---",
+        "year": "---",
+        "major": "---"
+    },
+    "10": {
+        "name": "none",
+        "image": "Filler",
+        "heroes": "Dazzle, Lich, Witch Doctor",
+        "year": "Junior",
+        "major": "Electrical Engineering"
+    }
+}

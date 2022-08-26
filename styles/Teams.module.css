@@ -1,0 +1,266 @@
+.Body {
+    color: white;
+    padding-top: 20px;
+}
+
+.Body h1 {
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    font-family: 'BebasNeueRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: clamp(2vw, 5vw + 1rem, 10rem);
+}
+
+.Box {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    font-family: 'Roboto';
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.Content {
+    display: grid;
+    background-color: var(--text-main);
+    width: calc(50% + 300px);
+    background: var(--text-main);
+    border-radius: 2vh;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 15% auto;
+    grid-template-areas:
+        "title title"
+        "left right"
+    ;
+}
+
+.Title {
+    grid-area: title;
+    background: orange;
+    color: #141414;
+    border-radius: 2vh 2vh 0 0;
+    font-family: 'BebasNeueRegular';
+    font-size: 3rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.Left {
+    display: grid;
+    grid-area: left;
+    background: var(--text-main);
+    padding: 20px;
+    gap: 5px;
+    border-radius: 0 0 0 2vh;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+        "player1"
+        "player2"
+        "player3"
+        "player4"
+        "player5"
+    ;
+}
+
+.Carry {
+    grid-area: player1;
+    display: flex;
+    font-family: 'BebasNeueRegular';
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1vh;
+    z-index: 5;
+}
+
+.Carry:hover {
+    cursor: pointer;
+    transition: 0.2s all ease-in 0s;
+    color: #141414;
+    background: orange;
+}
+
+.Mid {
+    grid-area: player2;
+    display: flex;
+    font-family: 'BebasNeueRegular';
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1vh;
+    z-index: 5;
+}
+
+.Mid:hover {
+    cursor: pointer;
+    transition: 0.2s all ease-in 0s;
+    color: #141414;
+    background: orange;
+}
+
+.Offlane {
+    grid-area: player3;
+    display: flex;
+    font-family: 'BebasNeueRegular';
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1vh;
+    z-index: 5;
+}
+
+.Offlane:hover {
+    cursor: pointer;
+    transition: 0.2s all ease-in 0s;
+    color: #141414;
+    background: orange;
+}
+
+.Support {
+    grid-area: player4;
+    display: flex;
+    font-family: 'BebasNeueRegular';
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1vh;
+    z-index: 5;
+}
+
+.Support:hover {
+    cursor: pointer;
+    transition: 0.2s all ease-in 0s;
+    color: #141414;
+    background: orange;
+}
+
+.HardSupport {
+    grid-area: player5;
+    display: flex;
+    font-family: 'BebasNeueRegular';
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1vh;
+    z-index: 5;
+}
+
+.HardSupport:hover {
+    cursor: pointer;
+    transition: 0.2s all ease-in 0s;
+    color: #141414;
+    background: orange;
+}
+
+
+.Right {
+    grid-area: right;
+    background: var(--text-main);
+    border-radius: 0 0 2vh 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "playerLeft playerRight"
+    ;
+}
+
+.PlayerImage {
+    grid-area: playerLeft;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--text-main);
+}
+
+.Image {
+    background: var(--text-main);
+    height: calc(300px + 1vw);
+    z-index: 0;
+}
+
+.PlayerStats {
+    grid-area: playerRight;
+    display: flex;
+    border-radius: 0 0 2vh 0;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px 10px 10px;
+    background: var(--text-main);
+}
+
+.Name {
+    font-size: calc(1vw + 2rem);
+    font-family: 'Roboto';
+    color: #141414;
+    background: var(--text-main);
+}
+
+.SignatureHeroes {
+    display: flex;
+    font-size: calc(1vw + 0.5rem);
+    text-align: center;
+    background: var(--text-main);
+    color: #141414;
+    margin-top: 200px;
+}
+
+.School {
+    background: var(--text-main);
+    color: #141414;
+    font-size: calc(1vw + 2px);
+}
+
+@media(max-width: 1000px) and (min-width: 280px) {
+    .Right {
+        grid-area: right;
+        background: var(--text-main);
+        border-radius: 0 0 2vh 0;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "playerRight"
+        ;
+    }
+    .PlayerStats {
+        grid-area: playerRight;
+    }
+    .Image {
+        display: none;
+    }
+    .Carry {
+        font-size: calc(1vw + 1rem);
+    }
+    .Mid {
+        font-size: calc(1vw + 1rem);
+    }
+    .Offlane {
+        font-size: calc(1vw + 1rem);
+    }
+    .Support {
+        font-size: calc(1vw + 1rem);
+    }
+    .HardSupport {
+        font-size: calc(1vw + 1rem);
+        display: flex;
+        text-align: center;
+    }
+    .Name {
+        font-size: calc(4vw + 2rem);
+        font-family: 'Roboto';
+        color: #141414;
+        background: var(--text-main);
+    }
+    .School {
+        font-size: calc(1vw + 1rem);
+        text-align: center;
+    }
+    .SignatureHeroes {
+        font-size: calc(1vw + 1rem);
+    }
+}

@@ -1,0 +1,47 @@
+.Body {
+    color: white;
+    padding-top: 20px;
+}
+
+.Body h1 {
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    font-family: 'BebasNeueRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: clamp(2vw, 5vw + 1rem, 10rem);
+}
+
+.Paragraph {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Roboto';
+    justify-content: center;
+    max-width: 900px;
+    font-size: 3rem;
+    overflow: wrap;
+}
+
+.Blitz {
+    font-style: none;
+    text-decoration: none;
+    color: var(--text-main);
+}
+
+.Blitz:hover {
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s ease 0s;
+}
+
+.bold {
+    color: var(--text-main);
+}

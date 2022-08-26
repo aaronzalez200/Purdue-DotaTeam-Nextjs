@@ -1,0 +1,30 @@
+.achievements {
+    color: white;
+}
+
+.achievements img {
+    padding: 40px;
+}
+
+.achievements h1 {
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    font-family: 'BebasNeueRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 10rem;
+}
+
+.achievements h4 {
+    color: var(--text-main)
+}
+
+.rankingInfo {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto';
+    font-size: 4rem;
+    color: white;
+    align-items: center;
+}

@@ -1,0 +1,13 @@
+@media(max-width: 1000px) and (min-width: 280px) {
+    .HiddenLinks{
+        display: none;
+    }
+    .ShownLinks{
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        height: 100vh;
+        width: 100%;
+        background: red;  
+    }
+}

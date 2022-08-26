@@ -1,0 +1,87 @@
+.Navbar {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'BebasNeueRegular';
+    height: 80px;
+    background: var(--text-main);
+    width: 100%;
+    z-index: 10;
+}
+
+.Home{
+    font-size: 20px;
+    padding-left: 200px;
+    display: flex;
+    background: var(--text-main);
+    align-items: center;
+}
+
+.Home img {
+    background: var(--text-main);
+}
+
+.Home p {
+    background: var(--text-main);
+    padding-left: 20px;
+}
+
+.li {
+    background: var(--text-main);
+    font-size: 20px;
+    padding: 0px 20px;
+    color: var(--background);
+    text-decoration: none;
+}
+
+.link {
+    display: flex;
+    background: var(--text-main);
+    padding-right: 200px;
+}
+
+.li:hover {
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
+}
+
+.Name {
+    margin-left: 20px;
+    color: var(--background);
+    background: var(--text-main);
+    text-decoration: none;
+}
+
+.Name:hover {
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
+}
+
+@media(min-width: 1000px) {
+    .hamburger {
+        outline: lime 1px solid;
+        display: none;
+    }
+}
+
+@media(max-width: 1000px) and (min-width: 280px) {
+    .link {
+        display: none;
+    }
+    .hamburger {
+        margin-right: 30px;
+        height: 40px;
+        z-index: 5;
+        background-color: transparent;
+    }
+    .Home {
+        margin-left: -120px;
+    }
+    .image{
+        background-color: orange;
+        border-radius: 0.4vw;
+    }
+}
