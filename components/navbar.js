@@ -1,5 +1,5 @@
 import React from "react"
-import Logo from '../public/PULogo.png'
+
 import Image from 'next/image'
 import Link from "next/link"
 import styles from '../styles/Navbar.module.css'
@@ -30,7 +30,7 @@ export default function Navbar() {
             </Link>   
         </div> 
         <div className={styles.Home}>
-            <Image src={Logo} alt="fill" height="70px" width="70px"/>
+            <img src="/PULogoOutlined.png" alt="fill" width="70px"/>
             <Link href="/">
                 <a className={styles.Name}>Dota 2 Club</a>
             </Link>

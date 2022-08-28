@@ -62,7 +62,6 @@
 
 @media(min-width: 1000px) {
     .hamburger {
-        outline: lime 1px solid;
         display: none;
     }
 }
@@ -81,7 +80,7 @@
         margin-left: -120px;
     }
     .image{
-        background-color: orange;
+        background-color: #141414;
         border-radius: 0.4vw;
     }
 }

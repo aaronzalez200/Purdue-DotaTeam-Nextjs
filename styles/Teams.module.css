@@ -25,7 +25,7 @@
 .Content {
     display: grid;
     background-color: var(--text-main);
-    width: calc(50% + 300px);
+    width: 40%;
     background: var(--text-main);
     border-radius: 2vh;
     grid-template-columns: 30% 70%;
@@ -42,7 +42,7 @@
     color: #141414;
     border-radius: 2vh 2vh 0 0;
     font-family: 'BebasNeueRegular';
-    font-size: 3rem;
+    font-size: 2.5rem;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -52,6 +52,7 @@
     display: grid;
     grid-area: left;
     background: var(--text-main);
+    text-align: center;
     padding: 20px;
     gap: 5px;
     border-radius: 0 0 0 2vh;
@@ -70,7 +71,7 @@
     grid-area: player1;
     display: flex;
     font-family: 'BebasNeueRegular';
-    font-size: 2rem;
+    font-size: 1.5rem;
     align-items: center;
     justify-content: center;
     border-radius: 1vh;
@@ -88,7 +89,7 @@
     grid-area: player2;
     display: flex;
     font-family: 'BebasNeueRegular';
-    font-size: 2rem;
+    font-size: 1.5rem;
     align-items: center;
     justify-content: center;
     border-radius: 1vh;
@@ -106,7 +107,7 @@
     grid-area: player3;
     display: flex;
     font-family: 'BebasNeueRegular';
-    font-size: 2rem;
+    font-size: 1.5rem;
     align-items: center;
     justify-content: center;
     border-radius: 1vh;
@@ -124,7 +125,7 @@
     grid-area: player4;
     display: flex;
     font-family: 'BebasNeueRegular';
-    font-size: 2rem;
+    font-size: 1.5rem;
     align-items: center;
     justify-content: center;
     border-radius: 1vh;
@@ -142,7 +143,7 @@
     grid-area: player5;
     display: flex;
     font-family: 'BebasNeueRegular';
-    font-size: 2rem;
+    font-size: 1.5rem;
     align-items: center;
     justify-content: center;
     border-radius: 1vh;
@@ -179,7 +180,7 @@
 
 .Image {
     background: var(--text-main);
-    height: calc(300px + 1vw);
+    width: 100%;
     z-index: 0;
 }
 
@@ -194,7 +195,7 @@
 }
 
 .Name {
-    font-size: calc(1vw + 2rem);
+    font-size: calc(1vw + 1.5rem);
     font-family: 'Roboto';
     color: #141414;
     background: var(--text-main);
@@ -216,6 +217,12 @@
 }
 
 @media(max-width: 1000px) and (min-width: 280px) {
+    .Content {
+        width: 80%;
+    }
+    .Left div {
+        font-size: 1rem;
+    }
     .Right {
         grid-area: right;
         background: var(--text-main);
@@ -251,7 +258,7 @@
         text-align: center;
     }
     .Name {
-        font-size: calc(4vw + 2rem);
+        font-size: calc(4vw + 1.5rem);
         font-family: 'Roboto';
         color: #141414;
         background: var(--text-main);

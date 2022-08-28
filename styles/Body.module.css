@@ -16,8 +16,6 @@
 .Box {
     display: flex;
     width: 100%;
-    margin-top: 100px;
-    margin-bottom: 300px;
     align-items: center;
     justify-content: center;
 }
@@ -79,7 +77,6 @@
     .Box {
         display: flex;
         width: 100%;
-        margin-bottom: calc(100px + 2vw);
         align-items: center;
         justify-content: center;
     }

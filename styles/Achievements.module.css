@@ -36,7 +36,7 @@
 }
 
 .Trophy {
-    width: calc(300px + 15vw);
+    height: 300px;
 }
 
 @media(max-width: 500px) and (min-width: 280px) {

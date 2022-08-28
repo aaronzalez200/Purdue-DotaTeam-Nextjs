@@ -18,5 +18,5 @@
     align-items: center;
     justify-content: center;
     font-family: 'Roboto';
-    font-size: clamp(2vw, 5vw + 1rem, 10rem);
+    font-size: clamp(2vw, 3vw + 1rem, 8rem);
 }
