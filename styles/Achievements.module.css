@@ -13,17 +13,17 @@
     font-family: 'BebasNeueRegular';
     font-weight: normal;
     font-style: normal;
-    font-size: clamp(2vw, 5vw + 1rem, 10rem);
+    font-size: clamp(2vw, 4vw + 1rem, 10rem);
 }
 
 .achievements h4 {
     color: var(--text-main);
     text-align: center;
-    font-size: clamp(2vw, 5vw + 1rem, 10rem);
+    font-size: clamp(2vw, 2vw + 1rem, 10rem);
 }
 
 .achievements p {
-    font-size: clamp(2vw, 3vw + 1rem, 10rem);
+    font-size: clamp(2vw, 2vw + 1rem, 10rem);
 }
 
 .rankingInfo {
