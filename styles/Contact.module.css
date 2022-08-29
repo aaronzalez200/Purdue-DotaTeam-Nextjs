@@ -10,7 +10,17 @@
     font-family: 'BebasNeueRegular';
     font-weight: normal;
     font-style: normal;
-    font-size: clamp(2vw, 5vw + 1rem, 10rem);
+    font-size: clamp(2vw, 3vw + 1rem, 10rem);
+}
+
+.Body h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: 'BebasNeueRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: clamp(2vw, 3vw + 1rem, 10rem);
 }
 
 .email {
@@ -18,5 +28,36 @@
     align-items: center;
     justify-content: center;
     font-family: 'Roboto';
-    font-size: clamp(2vw, 3vw + 1rem, 8rem);
+    font-size: clamp(2vw, 1vw + 1rem, 8rem);
+}
+
+.Box {
+    display: flex;
+    margin-top: 0px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials {
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+    font-family: 'Roboto';
+}
+
+.socialsImages {
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+}
+
+.socialsImages img {
+    height: 48px;
+}
+
+.socialsImages img:hover {
+    cursor: pointer;
+    transform: scale(1.25);
+    transition: 0.2s all ease-in 0.1s;
 }
